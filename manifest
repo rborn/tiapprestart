@@ -8,8 +8,7 @@ description: The module simulates an app restart, reinitializing the whole app.
 Useful for example when a change of langauge is needed from inside the app 
 without rebuilding the whole UI.
 
-The code is taken from the Titanium SDK.
-
+How the code is taken from the Titanium SDK the copyright is also by Appcelerator.
 author: Daniel Tamas
 license: Apache 2
 copyright: Copyright (c) by Appcelerator, Inc.
