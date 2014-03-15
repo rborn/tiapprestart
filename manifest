@@ -2,14 +2,17 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1
+version: 0.2
 apiversion: 2
 description: The module simulates an app restart, reinitializing the whole app.
 Useful for example when a change of langauge is needed from inside the app 
 without rebuilding the whole UI.
+
+The code is taken from the Titanium SDK.
+
 author: Daniel Tamas
 license: Apache 2
-copyright: Copyright (c) 2014 by Your Company
+copyright: Copyright (c) by Appcelerator, Inc.
 
 
 # these should not be edited

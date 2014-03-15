@@ -24,6 +24,8 @@
 /* Begin PBXBuildFile section */
 		24DD6CF91134B3F500162E58 /* InfoRbornTiapprestartModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* InfoRbornTiapprestartModule.h */; };
 		24DD6CFA1134B3F500162E58 /* InfoRbornTiapprestartModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* InfoRbornTiapprestartModule.m */; };
+		37055E5E18D4575F0064E628 /* TiRootViewController_shutdownUi.h in Headers */ = {isa = PBXBuildFile; fileRef = 37055E5C18D4575F0064E628 /* TiRootViewController_shutdownUi.h */; };
+		37055E5F18D4575F0064E628 /* TiRootViewController_shutdownUi.m in Sources */ = {isa = PBXBuildFile; fileRef = 37055E5D18D4575F0064E628 /* TiRootViewController_shutdownUi.m */; };
 		AA747D9F0F9514B9006C5449 /* InfoRbornTiapprestart_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* InfoRbornTiapprestart_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +44,8 @@
 		24DD6CF71134B3F500162E58 /* InfoRbornTiapprestartModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoRbornTiapprestartModule.h; path = Classes/InfoRbornTiapprestartModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* InfoRbornTiapprestartModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoRbornTiapprestartModule.m; path = Classes/InfoRbornTiapprestartModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		37055E5C18D4575F0064E628 /* TiRootViewController_shutdownUi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiRootViewController_shutdownUi.h; path = Classes/TiRootViewController_shutdownUi.h; sourceTree = "<group>"; };
+		37055E5D18D4575F0064E628 /* TiRootViewController_shutdownUi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiRootViewController_shutdownUi.m; path = Classes/TiRootViewController_shutdownUi.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* InfoRbornTiapprestart_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoRbornTiapprestart_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libInfoRbornTiapprestart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInfoRbornTiapprestart.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +95,8 @@
 			children = (
 				24DD6CF71134B3F500162E58 /* InfoRbornTiapprestartModule.h */,
 				24DD6CF81134B3F500162E58 /* InfoRbornTiapprestartModule.m */,
+				37055E5C18D4575F0064E628 /* TiRootViewController_shutdownUi.h */,
+				37055E5D18D4575F0064E628 /* TiRootViewController_shutdownUi.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -112,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* InfoRbornTiapprestart_Prefix.pch in Headers */,
+				37055E5E18D4575F0064E628 /* TiRootViewController_shutdownUi.h in Headers */,
 				24DD6CF91134B3F500162E58 /* InfoRbornTiapprestartModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DD6CFA1134B3F500162E58 /* InfoRbornTiapprestartModule.m in Sources */,
+				37055E5F18D4575F0064E628 /* TiRootViewController_shutdownUi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
